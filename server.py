@@ -8,8 +8,8 @@ connections = []
 clients = []
 addNums = [0]
 
-IP = input("Type IP to listen on: ")
-PORT = int(input("Type Port: "))
+IP = '142.93.108.123'
+PORT = 4444
 try:
 	s.bind((IP, PORT))
 except socket.error as e:
