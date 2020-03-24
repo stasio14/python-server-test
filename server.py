@@ -15,7 +15,7 @@ try:
 except socket.error as e:
 	print(str(e))
 
-s.listen()
+s.listen(1)
 print("Listening for clients on: " + IP + ":" + str(PORT))
 
 def handler(c, a):
